@@ -217,3 +217,46 @@ li > .item:hover {
   text-align: center;
   width: 100%;
 }
+
+.footer {
+  color: #f9f9f9;
+  background-color: rgb(255, 50, 50);
+  width: 100%;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.empresa-title {
+  margin-top: 4rem;
+}
+
+.fachada {
+  width: 40rem;
+  margin-bottom: 1rem;
+}
+
+.about {
+  width: 60rem;
+  text-align: justify;
+}
+
+.about > p {
+  margin-top: 2rem;
+}
+
+.contact {
+  text-align: center;
+  margin: 5rem;
+}
+
+.contact > p {
+  width: 40rem;
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+.map {
+  margin-bottom: 4rem;
+}
