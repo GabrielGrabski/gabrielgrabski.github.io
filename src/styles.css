@@ -68,7 +68,7 @@ li > .item:hover {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   top: 100%;
   left: -1rem;
@@ -129,7 +129,6 @@ li > .item:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
 .hero-content-presentation {
@@ -188,14 +187,14 @@ li > .item:hover {
   padding: 3rem;
   background-color: #a5a5a5;
 }
+
 .cards-title {
   color: #fff;
 }
 
 .card {
+  color: #000;
   transition: all 0.2s;
-  width: 40rem;
-  height: 35rem;
   background-color: #fff;
   border-radius: 1rem;
   padding: 2rem;
@@ -261,6 +260,96 @@ li > .item:hover {
   margin-bottom: 4rem;
 }
 
+.cards-drywall-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 6rem 0;
+}
+
+.whatsapp {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+  background-color: rgb(0, 168, 0);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.whatsapp:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background-color: rgb(0, 116, 0);
+}
+
+.whatsapp-logo {
+  width: 50px;
+}
+
+.cards-drywall {
+  width: 100%;
+  display: flex;
+}
+
+.card-drywall {
+  font-size: 1rem;
+  display: flex;
+  height: 50rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  margin: 2rem;
+  box-shadow: 2px 2px 12px #c1c1c1;
+  color: #000;
+  border-radius: 1rem;
+  transition: all 0.2s ease;
+}
+
+.card-drywall:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 16px #949494;
+}
+
+.card-drywall > img {
+  width: 500px;
+  height: 400px;
+}
+
+.card-content-divisor {
+  width: 1px;
+  height: 100%;
+  background-color: #373737;
+}
+
+.card-drywall-content {
+  height: 35%;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  text-align: justify;
+  margin-top: 3rem;
+}
+
+.card-drywall-content > ul > li {
+  list-style: circle;
+}
+
+.card-drywall-content > h3 {
+  align-self: center;
+}
+
 @media (max-width: 1080px) {
   .hero-main-image {
     width: 500px;
@@ -273,11 +362,11 @@ li > .item:hover {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   a > img {
     width: 100px;
   }
-  
+
   .menu-items {
     display: none;
   }
@@ -325,7 +414,7 @@ li > .item:hover {
     font-size: 1.5rem;
     color: #fff;
   }
-  
+
   .card {
     transition: all 0.2s;
     width: 20rem;
@@ -341,6 +430,28 @@ li > .item:hover {
   }
 
   .footer > img {
+    display: none;
+  }
+
+  .fachada {
+    width: 300px;
+  }
+
+  .about {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .contact {
+    font-size: 1rem;
+  }
+
+  .contact > p {
+    width: 100%;
+  }
+
+  .map {
     display: none;
   }
 }
